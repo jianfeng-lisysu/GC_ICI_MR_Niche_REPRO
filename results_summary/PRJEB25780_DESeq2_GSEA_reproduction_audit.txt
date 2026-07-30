@@ -1,0 +1,47 @@
+PRJEB25780 DESeq2 and GO BP GSEA reproduction audit
+============================================================
+Generated: 2026-07-29 17:15:58 CST
+Count matrix used only for VST heatmap: E:/Bioinformatics analysis/GC_ICI_MR_Niche_REPRO_20260617/01_raw_data/05_PRJEB25780_ICI/rnaseq_fastq_tumor/PRJEB25780_gene_counts_annotated_39samples.csv
+Locked score object: E:/Bioinformatics analysis/GC_ICI_MR_Niche_REPRO_20260617/04_results/PRJEB40416_locked_signature_reanalysis_results.rds
+Historical DESeq2 all-gene file: E:/Bioinformatics analysis/GC_ICI_MR_Niche_REPRO_20260617/04_results/DESeq2_PRJEB25780_clean_all.csv
+Historical DESeq2 DEG file: E:/Bioinformatics analysis/GC_ICI_MR_Niche_REPRO_20260617/04_results/DESeq2_PRJEB25780_clean_DEGs.csv
+Historical GSEA file: E:/Bioinformatics analysis/GC_ICI_MR_Niche_REPRO_20260617/04_results/GSEA_GO_BP_PRJEB25780_Responder_vs_Non_responder.csv
+
+Cohort:
+- tumors: 23
+- responders: 7
+- non-responders: 16
+
+DESeq2:
+- genes with any non-zero count: 49067
+- historical row-sum prefilter: >= 10
+- genes retained for DESeq2: 36921
+- raw rows with adjusted P < 0.1 in all-gene file: 696
+- locked cleaned genes with adjusted P < 0.1: 369
+- FBLN1 log2FC: -3.8893697
+- FBLN1 adjusted P: 0.00014460145
+
+GSEA:
+- historical GO BP pathways loaded: 5880
+- significant pathways at adjusted P < 0.05: 1177
+- historical seed record: 20260721
+
+Locked pathway validation:
+           ID expected_direction expected_NES
+       <char>             <char>        <num>
+1: GO:0030199        NR-enriched    -2.562281
+2: GO:0001906         R-enriched     2.164000
+3: GO:0006956         R-enriched     2.666000
+   observed_direction observed_NES    observed_padj present
+               <char>        <num>            <num>  <lgcl>
+1:        NR-enriched    -2.562281 0.00000001728235    TRUE
+2:         R-enriched     2.163630 0.00000001728235    TRUE
+3:         R-enriched     2.666329 0.00000006933317    TRUE
+   direction_pass NES_close
+           <lgcl>    <lgcl>
+1:           TRUE      TRUE
+2:           TRUE      TRUE
+3:           TRUE      TRUE
+
+Output RDS:
+E:/Bioinformatics analysis/GC_ICI_MR_Niche_REPRO_20260617/04_results/GitHub_reproduction/PRJEB25780_DESeq2_GSEA_results.rds

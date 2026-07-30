@@ -1,0 +1,45 @@
+# Credentials and user environment
+.Renviron
+.Rprofile
+*.pem
+*.key
+
+# R session and cache
+.Rhistory
+.RData
+.Ruserdata
+.Rproj.user/
+renv/library/
+
+# Raw, intermediate and potentially identifying data
+01_raw_data/
+03_intermediate/
+*.fastq
+*.fastq.gz
+*.bam
+*.bai
+*.vcf
+*.vcf.gz
+*.h5
+*.h5ad
+*.rds
+*.RDS
+!results_summary/PRJEB25780_DESeq2_GSEA_results.rds
+*.RData
+*.mtx
+*.mtx.gz
+
+# Large/generated outputs
+04_results/
+05_figures/
+06_logs_and_audit/
+
+# Office and operating-system files
+~$*
+.DS_Store
+._*
+Thumbs.db
+
+# Authentication
+*.jwt
+*token*

@@ -1,0 +1,69 @@
+SOFTWARE VERSION AUDIT
+============================================================
+
+Generated: 2026-07-28 22:46:16 CST
+R version: R version 4.6.0 (2026-04-24 ucrt)
+Platform: x86_64-w64-mingw32
+Operating system: Windows | 10 x64 | build 26200 | x86-64
+Bioconductor version: 3.23
+Working library paths: D:/Program Files/R/R-4.6.0/library
+
+PACKAGE VERSIONS
+------------------------------------------------------------
+         package version installed
+         biomaRt  2.68.0      TRUE
+            boot  1.3.32      TRUE
+ clusterProfiler  4.20.0      TRUE
+           coloc   5.2.3      TRUE
+         cowplot   1.2.0      TRUE
+      data.table  1.18.4      TRUE
+          DESeq2  1.52.0      TRUE
+      DiagrammeR    <NA>     FALSE
+   DiagrammeRsvg    <NA>     FALSE
+          digest  0.6.39      TRUE
+           dplyr   1.2.1      TRUE
+           edgeR    <NA>     FALSE
+      enrichplot  1.32.0      TRUE
+        estimate    <NA>     FALSE
+           fgsea    <NA>     FALSE
+       flextable  0.10.0      TRUE
+         ggplot2   4.0.3      TRUE
+            GSVA    <NA>     FALSE
+        ieugwasr   1.1.0      TRUE
+           limma    <NA>     FALSE
+         logistf  1.26.1      TRUE
+          Matrix   1.7.5      TRUE
+         officer   0.7.5      TRUE
+        openxlsx    <NA>     FALSE
+    org.Hs.eg.db  3.23.1      TRUE
+       patchwork   1.3.2      TRUE
+             png   0.1.9      TRUE
+  preprocessCore    <NA>     FALSE
+            pROC    <NA>     FALSE
+           readr   2.2.0      TRUE
+          readxl   1.5.0      TRUE
+            rsvg    <NA>     FALSE
+          scales   1.4.0      TRUE
+          Seurat   5.5.0      TRUE
+    SeuratObject   5.4.0      TRUE
+        survival   3.8.6      TRUE
+           tidyr   1.3.2      TRUE
+            tiff  0.1.12      TRUE
+     TwoSampleMR    <NA>     FALSE
+        tximport  1.40.0      TRUE
+
+MANUSCRIPT-CORE PACKAGE SUMMARY
+------------------------------------------------------------
+         package version installed
+     TwoSampleMR    <NA>     FALSE
+           coloc   5.2.3      TRUE
+          DESeq2  1.52.0      TRUE
+ clusterProfiler  4.20.0      TRUE
+          Seurat   5.5.0      TRUE
+         logistf  1.26.1      TRUE
+            pROC    <NA>     FALSE
+      data.table  1.18.4      TRUE
+         ggplot2   4.0.3      TRUE
+       patchwork   1.3.2      TRUE
+         officer   0.7.5      TRUE
+       flextable  0.10.0      TRUE
